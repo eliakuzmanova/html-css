@@ -1,24 +1,25 @@
-header{
+header {
     border-radius: 3px;
     padding: 8px 10px;
     background-color: #dceaf4;
     border: 1px solid #bfcacb;
 }
 
-header *{
+header * {
     display: inline;
     vertical-align: middle;
 }
 
-nav ul{
+nav ul {
     margin: 0;
     padding: 10px;
 }
+
 nav li {
     margin: 10px;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
 }
 
@@ -26,7 +27,7 @@ body {
     background-color: #b7d7e8;
 }
 
-section h2{
+section h2 {
     margin: 15px 10px;
 }
 
@@ -34,11 +35,11 @@ article {
     display: table-cell;
 }
 
-section h2{
+section h2 {
     margin: 15px 10px;
 }
 
-article{
+article {
     display: table-cell;
     width: 50%;
     padding: 10px 15px;
@@ -46,13 +47,14 @@ article{
     border: 10px solid #b7d7e8;
 }
 
-footer{
+footer {
     margin: 5px;
- padding: 5px 10px;
- border-radius: 3px;
-background-color: #dceaf4;
-border: 1px solid #bfcacb;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #dceaf4;
+    border: 1px solid #bfcacb;
 }
+
 footer p {
-margin: 5px;
+    margin: 5px;
 }
