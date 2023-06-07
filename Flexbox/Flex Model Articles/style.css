@@ -1,0 +1,26 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em auto;
+    gap: 2em;
+}
+
+article{
+    height: 3em;
+    flex: 0 0 14.5em;
+}
