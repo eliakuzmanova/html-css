@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div,
+section {
+    display: flex;
+    
+}
+
+.container {
+    margin: 1em auto;
+    max-width: 65vw;
+    border: 2px solid royalblue;
+    
+}
+
+span {
+    flex: 1 0 auto;
+    border: 1px solid black;
+    padding: 0.3em;
+    display: block;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+.notes span{
+    flex-basis:50%
+}
+
+.week {
+    flex-wrap: wrap;
+}
+
+.week span:nth-child(1),
+.week span:nth-child(7) {
+    flex: 0 0 100%
+}
