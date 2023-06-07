@@ -1,0 +1,29 @@
+html{
+    font-family: Helvetica, sans-serif;
+    
+    color: rgb(51, 51, 51);
+}
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 1em 2em;
+}
+img{
+    width: 610px;
+    height: 450px;
+}
+
+article{
+    width: 810px;
+    display: inline-block;
+
+}
+
+aside{
+    width: 345px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+h1,h2{
+    font-family: Georgia, serif;
+}
